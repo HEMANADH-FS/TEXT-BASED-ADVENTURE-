@@ -1,0 +1,142 @@
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string playerName;
+    cout << "Enter your name: ";
+    cin >> playerName;
+    cout << "Welcome, " << playerName << "! You find yourself in a mysterious forest.\n";
+    cout << "You see three paths ahead. Choose your path:\n";
+    cout << "1. Go left\n2. Go right\n3. Go straight\n";
+
+    int choice;
+    cin >> choice;
+
+    if (choice == 1) {
+        cout << "You venture deeper into the forest and discover a hidden treasure!\n";
+    }
+    else if (choice == 2) {
+        cout << "You encounter a wild beast! What will you do?\n";
+        cout << "1. Try to scare it away\n2. Fight the beast\n3. Run away\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "You make loud noises and scare the beast away. Phew, that was close!\n";
+        }
+        else if (choice == 2) {
+            cout << "You bravely fight the beast. It's a tough battle, but you manage to defeat it.\n";
+        }
+        else if (choice == 3) {
+            cout << "You run away from the beast and find yourself at a peaceful meadow.\n";
+        }
+        else {
+            cout << "You hesitate, and the beast attacks! Quick, run away!\n";
+        }
+    }
+    else if (choice == 3) {
+        cout << "You follow the straight path and reach a river.\n";
+        cout << "What will you do?\n";
+        cout << "1. Try to swim across\n2. Look for a bridge\n3. Follow the riverbank\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "You attempt to swim across, but the river's current is strong. You get carried away and need help from locals.\n";
+        }
+        else if (choice == 2) {
+            cout << "You find a sturdy bridge and safely cross the river.\n";
+        }
+        else if (choice == 3) {
+            cout << "You follow the riverbank and come across a friendly fisherman. He offers you a ride across the river.\n";
+        }
+        else {
+            cout << "You hesitate, and night falls. You're lost in the forest!\n";
+        }
+    }
+    else if (choice == 4) {
+        cout << "You take a hidden path, leading you to a dark cave.\n";
+        cout << "As you enter the cave, you notice a faint light in the distance.\n";
+        cout << "What will you do?\n";
+        cout << "1. Investigate the light\n2. Leave the cave and return to the forest\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "You cautiously approach the light and find a chest full of valuable gems and artifacts!\n";
+        }
+        else if (choice == 2) {
+            cout << "You decide to leave the cave and continue your journey in the forest.\n";
+        }
+        else {
+            cout << "You hesitate and the cave starts to rumble. Rocks begin to fall, forcing you to run outside.\n";
+        }
+    }
+    else if (choice == 5) {
+        cout << "You come across a group of friendly forest creatures playing by a magical fountain.\n";
+        cout << "They invite you to join their dance and celebrate with them.\n";
+        cout << "What will you do?\n";
+        cout << "1. Join the creatures and dance merrily\n2. Politely decline and continue exploring the forest\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "You join the joyous dance and receive a special gift from the creatures as a token of their friendship.\n";
+        }
+        else if (choice == 2) {
+            cout << "You thank the creatures for the invitation and bid them farewell as you venture further into the forest.\n";
+        }
+        else {
+            cout << "You hesitate and accidentally step on the fountain, causing it to lose its magic. The creatures are sad, and you leave with regret.\n";
+        }
+    }
+    else if (choice == 6) {
+        cout << "You come across an ancient tree with a door carved into its trunk.\n";
+        cout << "What will you do?\n";
+        cout << "1. Open the door and enter\n2. Continue your journey through the forest\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "You open the door and find a magical realm inside the tree. You embark on a fantastical adventure!\n";
+        }
+        else if (choice == 2) {
+            cout << "You decide to continue your journey through the forest, wondering about the mystery of the tree.\n";
+        }
+        else {
+            cout << "You hesitate, and the tree creaks. The door slams shut, and you're unable to enter.\n";
+        }
+    }
+    else if (choice == 7) {
+        cout << "You stumble upon a group of friendly forest fairies.\n";
+        cout << "They offer you a choice of three magical items.\n";
+        cout << "1. A healing potion\n2. An invisibility cloak\n3. A flying broomstick\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "You take the healing potion, feeling its revitalizing effect immediately.\n";
+        }
+        else if (choice == 2) {
+            cout << "You put on the invisibility cloak and experience the thrill of being unseen.\n";
+        }
+        else if (choice == 3) {
+            cout << "You mount the flying broomstick and soar through the forest, enjoying the exhilarating ride.\n";
+        }
+        else {
+            cout << "You hesitate, and the fairies' magic dissipates. You leave empty-handed.\n";
+        }
+    }
+    else if (choice == 8) {
+        cout << "You encounter a riddle written on a mysterious stone tablet.\n";
+        cout << "Solving the riddle may lead to a hidden treasure.\n";
+        cout << "What will you do?\n";
+        cout << "1. Attempt to solve the riddle\n2. Ignore the riddle and continue exploring\n";
+        cin >> choice;
+
+        if (choice == 1) {
+            cout << "After much thought, you decipher the riddle and find the location of the hidden treasure!\n";
+        }
+        else if (choice == 2) {
+            cout << "You decide to leave the riddle unsolved and continue your journey through the forest.\n";
+        }
+        else {
+            cout << "You hesitate, and the stone tablet crumbles, making the riddle unreadable.\n
+}
+}
